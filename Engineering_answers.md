@@ -1,8 +1,6 @@
-# 1nfluencersmarketing 
-### Web Project
+# 1nfluencersmarketing
 
-Project Figma [link](https://www.figma.com/file/IJ9jD7dT5muud1PsKbuVUZ/Untitled?node-id=0%3A1)
-View the project video here [link](https://www.linkedin.com/feed/update/urn:li:ugcPost:6931271048524886016/).
+Visualize o video do projeto nesse [link](https://github.com/facebook/create-react-app).
 
 ## Web Skill Test
 ### JavaScript / Reactjs / Nodejs
