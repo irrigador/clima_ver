@@ -46,6 +46,8 @@ const WeatherLogo =styled.img`
     height: 100px;
     margin: 5px auto;
 `;
+
+
 const Location = styled.span `
     font-size: 28px;
     font-weight: bold;
@@ -118,7 +120,7 @@ const WeatherComponent = (props) => {
             <span>{`${Math.floor(weather.main.temp - 273)} ºC`}
             </span>
         {` |  ${weather.weather[0].description}`}</Condition>
-        <WeatherLogo src={WeatherIcons[weather.weather[0].icon]}/>
+     <div class="zoom">  <WeatherLogo src={WeatherIcons[weather.weather[0].icon]}/> </div> 
     </WeatherCondition>
     <Location>{`${weather.name},  ${weather.sys.country} `}</Location>
     <WeatherInfoLabel>Info *</WeatherInfoLabel>
